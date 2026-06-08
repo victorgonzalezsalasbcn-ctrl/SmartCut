@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A1A"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Reserva"
+        android:textColor="#D4AF37"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/tvResumenCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#252525"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvClienteSeleccionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cita para: Ninguno seleccionado"
+        android:textColor="#D4AF37"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/etBuscarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Buscar cliente (Nombre o Tel)..."
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D4AF37"
+        android:paddingLeft="10dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResultadosBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#222222"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/etObservaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Observaciones (opcional)"
+        android:textColorHint="#888888"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#444444" />
+
+    <Button
+        android:id="@+id/btnConfirmarCita"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="CONFIRMAR CITA"
+        android:backgroundTint="#D4AF37"
+        android:textColor="#1A1A1A"
+        android:textStyle="bold" />
+
+</LinearLayout>

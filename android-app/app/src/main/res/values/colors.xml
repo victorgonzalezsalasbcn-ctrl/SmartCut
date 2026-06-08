@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo_premium">#121212</color>
+    <color name="gris_tarjeta">#1E1E1E</color>
+    <color name="dorado_premium">#D4AF37</color>
+
+    <color name="texto_blanco_roto">#F5F5F5</color>
+    <color name="texto_gris_suave">#B0B0B0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="purple_200">#D4AF37</color>
+    <color name="purple_500">#1E1E1E</color>
+    <color name="purple_700">#121212</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+</resources>
